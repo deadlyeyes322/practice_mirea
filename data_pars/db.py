@@ -4,7 +4,7 @@ import csv
 from typing import List, Dict
 
 DB_FILE = 'database.db'
-TABLE_NAME = 'employees'
+TABLE_NAME = input('введите название таблицы(data_science, frontend, backend, cybersecurity):')
 
 class CSVtoSQLiteImporter:
     """Класс для импорта данных из CSV файла в SQLite базу данных"""
